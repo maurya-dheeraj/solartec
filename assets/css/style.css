@@ -123,7 +123,7 @@ p{
 
 
 /* carousel */
-.item{
+.item1 {
     width: 100vw;
     min-height: 100vh;
     background-size: 100% 100%;
@@ -311,6 +311,93 @@ p{
 }
 
 
-/* .animatefade{
+.fade{
     animation-duration: 2s;
-} */
+}
+
+
+.our_services{
+    padding: 80px 0px;    
+}
+
+.service-card{
+    position: relative;
+}
+
+.service-body{
+    position: relative;
+}
+
+.card-img-top{
+    position: relative;
+}
+
+.services-title{
+    text-align: center;
+}
+
+.services-title h6{
+    color: #32c36c;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.services-title h3{
+    font-size: 41px;
+    font-weight: 600;
+}
+
+.service-icon {
+    border-radius: 50%;
+    width: 95px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 4px 8px lightgrey;
+    position: absolute;
+    top: -45px;
+    color: #32c36c;
+}
+
+.service-card .card-body{
+    padding:70px 17px 20px 17px!important;
+}
+
+.service-card .card-title, .service-card .card-text{
+    margin-bottom: 16px;
+}
+
+.service-card .card-text{
+    font-size:18px;
+    color: #9b9b9b;
+}
+
+.read-more{
+    color: #32c36c;
+    text-decoration: none;
+}
+
+.service-card{
+    border-radius: 10px;
+    box-shadow: 0px 0px 45px rgb(0 0 0 / 8%);
+    border: none;
+
+}
+
+
+.card-img, .card-img-top {
+    border-top-left-radius: calc(10px - 1px);
+    border-top-right-radius: calc(10px - 1px);
+}
+
+.service-card:hover .service-icon{
+    background-color: #32C36C;
+    color: #fff;
+    transition: 0.9s ease;
+    -webkit-transition: 0.9s ease;
+    -moz-transition: 0.9s ease;
+    -ms-transition: 0.9s ease;
+    -o-transition: 0.9s ease;
+}
